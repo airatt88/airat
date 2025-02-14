@@ -1,8 +1,8 @@
 @font-face {
     font-family: "header";
     src:
-    url("/fonts/leaguescript-webfont.woff2") format("woff2"),
-    url("/fonts/leaguescript-webfont.woff") format("woff");
+    url("leaguescript-webfont.woff2") format("woff2"),
+    url("leaguescript-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
     font-family: "text";
     src:
-    url("/fonts/alexbrush-regular-webfont.woff2") format("woff2"),
-    url("/fonts/alexbrush-regular-webfont.woff") format("woff");
+    url("alexbrush-regular-webfont.woff2") format("woff2"),
+    url("alexbrush-regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
