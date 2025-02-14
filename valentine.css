@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background: url("cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL3JtNjA2ZGVzaWduLXJlbWl4LWJnLTEzLWEuanBn.webp") no-repeat center center/cover;
     background-color: pink;
     font-family: Arial, sans-serif;
 }
@@ -19,10 +20,12 @@ body {
 }
 
 .loader {
+    border: 0.8em darkviolet;
     width: 0;
     height: 100%;
-    background-color: #0cf00c;
+    background: linear-gradient(20deg, pink, purple, pink, purple, pink);
     animation: load 5s infinite;
+    background-clip: border-box;
 }
 
 @keyframes load {
